@@ -7,13 +7,12 @@ public class MoveSphere : MonoBehaviour
 
     //declaring variable
     public float moveSpeed = 330f;
-    public float jumpSpeed = 150f;
+    public float jumpSpeed = 50f;
     public float distToGround = 0.25f;
 
     //declaring private variables for directions
     private float xDirection;
     private float zDirection;
-    private float yDirection = 150f;
 
     void Awake()
     {
@@ -35,7 +34,7 @@ public class MoveSphere : MonoBehaviour
     private void Jump() //Jump function
     {
         //player.AddForce((new Vector3(0f,yDirection,0f) * jumpSpeed) * Time.deltaTime);
-        player.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
+        player.AddForce(new Vector3(0, 2.5f, 0) * jumpSpeed * Time.fixedDeltaTime, ForceMode.Impulse);
     }
     
     

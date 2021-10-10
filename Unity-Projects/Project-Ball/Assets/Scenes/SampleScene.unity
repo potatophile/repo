@@ -1244,9 +1244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cee97f92d0bc04e87b13fde12aacc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1299586746}
-  movementspeed: 320
-  jumppower: 150
+  player: {fileID: 0}
+  moveSpeed: 330
+  jumpSpeed: 150
   distToGround: 0.25
 --- !u!1 &1342402214
 GameObject:
@@ -1827,9 +1827,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cee97f92d0bc04e87b13fde12aacc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  movementspeed: 60
-  jumppower: 20
+  player: {fileID: 0}
+  moveSpeed: 330
+  jumpSpeed: 150
   distToGround: 0.5
 --- !u!20 &1687258584
 Camera:
