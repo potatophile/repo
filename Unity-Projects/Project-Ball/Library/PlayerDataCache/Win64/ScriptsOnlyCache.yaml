@@ -38,26 +38,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.Bloom
-    - UnityEngine.Rendering.Universal.ChannelMixer
-    - UnityEngine.Rendering.Universal.ChromaticAberration
-    - UnityEngine.Rendering.Universal.ColorAdjustments
-    - UnityEngine.Rendering.Universal.ColorCurves
-    - UnityEngine.Rendering.Universal.ColorLookup
-    - UnityEngine.Rendering.Universal.DepthOfField
-    - UnityEngine.Rendering.Universal.FilmGrain
     - UnityEngine.Rendering.Universal.ForwardRendererData
-    - UnityEngine.Rendering.Universal.LensDistortion
-    - UnityEngine.Rendering.Universal.LiftGammaGain
-    - UnityEngine.Rendering.Universal.MotionBlur
-    - UnityEngine.Rendering.Universal.PaniniProjection
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
-    - UnityEngine.Rendering.Universal.SplitToning
     - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.Vignette
-    - UnityEngine.Rendering.Universal.WhiteBalance
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -126,87 +112,87 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1738}
     - Class: 114
-      Script: {instanceID: 2232}
+      Script: {instanceID: 2230}
     - Class: 114
       Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3020}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3040}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3084}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3194}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3562}
+      Script: {instanceID: 3564}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 3916}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 4126}
     - Class: 114
-      Script: {instanceID: 4436}
+      Script: {instanceID: 4440}
     - Class: 114
-      Script: {instanceID: 4530}
+      Script: {instanceID: 4534}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 4596}
     - Class: 114
-      Script: {instanceID: 4606}
+      Script: {instanceID: 4610}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4660}
     - Class: 114
-      Script: {instanceID: 4818}
+      Script: {instanceID: 4822}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 4824}
     - Class: 114
-      Script: {instanceID: 4840}
+      Script: {instanceID: 4844}
     - Class: 114
-      Script: {instanceID: 5066}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 5172}
+      Script: {instanceID: 5176}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5354}
+      Script: {instanceID: 5358}
     - Class: 114
-      Script: {instanceID: 5360}
+      Script: {instanceID: 5364}
     - Class: 114
-      Script: {instanceID: 5440}
+      Script: {instanceID: 5444}
     - Class: 114
-      Script: {instanceID: 5472}
+      Script: {instanceID: 5476}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5514}
     - Class: 114
-      Script: {instanceID: 5580}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 5680}
+      Script: {instanceID: 5684}
     - Class: 114
-      Script: {instanceID: 5796}
+      Script: {instanceID: 5800}
     - Class: 114
-      Script: {instanceID: 5888}
+      Script: {instanceID: 5892}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 5930}
     - Class: 114
-      Script: {instanceID: 6242}
+      Script: {instanceID: 6246}
     - Class: 114
-      Script: {instanceID: 6418}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 6688}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 6808}
+      Script: {instanceID: 6812}
     - Class: 114
-      Script: {instanceID: 6894}
+      Script: {instanceID: 6898}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -326,12 +312,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: DepthOfField
-  - hash:
-      serializedVersion: 2
-      Hash: 98c1894ee835cf9a4ec0862c997c6272
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Movement
   - hash:
       serializedVersion: 2
       Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
@@ -574,7 +554,7 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: 5d97b91af6460ff77ac42ec8da6f5009
+      Hash: a017864f4f30ecc2767ca5c377c52240
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoveSphere
